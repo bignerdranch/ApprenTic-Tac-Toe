@@ -3,38 +3,70 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FFB9FD2028905D5200FD6316 /* ApprenTic_Tac_ToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB9FD0D28905D4F00FD6316 /* ApprenTic_Tac_ToeApp.swift */; };
-		FFB9FD2128905D5200FD6316 /* ApprenTic_Tac_ToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB9FD0D28905D4F00FD6316 /* ApprenTic_Tac_ToeApp.swift */; };
-		FFB9FD2228905D5200FD6316 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB9FD0E28905D4F00FD6316 /* ContentView.swift */; };
-		FFB9FD2328905D5200FD6316 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB9FD0E28905D4F00FD6316 /* ContentView.swift */; };
-		FFB9FD2428905D5200FD6316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB9FD0F28905D5200FD6316 /* Assets.xcassets */; };
-		FFB9FD2528905D5200FD6316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB9FD0F28905D5200FD6316 /* Assets.xcassets */; };
+		FDA4CF01289DB1EA00255671 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4CF00289DB1EA00255671 /* AppDelegate.swift */; };
+		FDA4CF03289DB1EA00255671 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4CF02289DB1EA00255671 /* SceneDelegate.swift */; };
+		FDA4CF05289DB1EA00255671 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4CF04289DB1EA00255671 /* ViewController.swift */; };
+		FDA4CF0A289DB1EB00255671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA4CF09289DB1EB00255671 /* Assets.xcassets */; };
+		FDA4CF0D289DB1EB00255671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA4CF0B289DB1EB00255671 /* LaunchScreen.storyboard */; };
+		FDA4CF18289DB1EB00255671 /* ApprenTic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4CF17289DB1EB00255671 /* ApprenTic_Tac_ToeTests.swift */; };
+		FDA4CF22289DB1EB00255671 /* ApprenTic_Tac_ToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4CF21289DB1EB00255671 /* ApprenTic_Tac_ToeUITests.swift */; };
+		FDA4CF24289DB1EB00255671 /* ApprenTic_Tac_ToeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4CF23289DB1EB00255671 /* ApprenTic_Tac_ToeUITestsLaunchTests.swift */; };
+		FDA4CF3128A2D4CA00255671 /* TicTacButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4CF3028A2D4CA00255671 /* TicTacButton.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FDA4CF14289DB1EB00255671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA4CEF5289DB1EA00255671 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA4CEFC289DB1EA00255671;
+			remoteInfo = "ApprenTic Tac Toe";
+		};
+		FDA4CF1E289DB1EB00255671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA4CEF5289DB1EA00255671 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA4CEFC289DB1EA00255671;
+			remoteInfo = "ApprenTic Tac Toe";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		FFB9FD0D28905D4F00FD6316 /* ApprenTic_Tac_ToeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprenTic_Tac_ToeApp.swift; sourceTree = "<group>"; };
-		FFB9FD0E28905D4F00FD6316 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FFB9FD0F28905D5200FD6316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FFB9FD1428905D5200FD6316 /* ApprenTic Tac Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ApprenTic Tac Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFB9FD1728905D5200FD6316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FFB9FD1C28905D5200FD6316 /* ApprenTic Tac Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ApprenTic Tac Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFB9FD1E28905D5200FD6316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FFB9FD1F28905D5200FD6316 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FDA4CEFD289DB1EA00255671 /* ApprenTic Tac Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ApprenTic Tac Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA4CF00289DB1EA00255671 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDA4CF02289DB1EA00255671 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FDA4CF04289DB1EA00255671 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDA4CF09289DB1EB00255671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDA4CF0C289DB1EB00255671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDA4CF0E289DB1EB00255671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA4CF13289DB1EB00255671 /* ApprenTic Tac ToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ApprenTic Tac ToeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA4CF17289DB1EB00255671 /* ApprenTic_Tac_ToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprenTic_Tac_ToeTests.swift; sourceTree = "<group>"; };
+		FDA4CF1D289DB1EB00255671 /* ApprenTic Tac ToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ApprenTic Tac ToeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA4CF21289DB1EB00255671 /* ApprenTic_Tac_ToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprenTic_Tac_ToeUITests.swift; sourceTree = "<group>"; };
+		FDA4CF23289DB1EB00255671 /* ApprenTic_Tac_ToeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprenTic_Tac_ToeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDA4CF3028A2D4CA00255671 /* TicTacButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FFB9FD1128905D5200FD6316 /* Frameworks */ = {
+		FDA4CEFA289DB1EA00255671 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFB9FD1928905D5200FD6316 /* Frameworks */ = {
+		FDA4CF10289DB1EB00255671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA4CF1A289DB1EB00255671 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,174 +76,245 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FFB9FD0728905D4F00FD6316 = {
+		FDA4CEF4289DB1EA00255671 = {
 			isa = PBXGroup;
 			children = (
-				FFB9FD0C28905D4F00FD6316 /* Shared */,
-				FFB9FD1628905D5200FD6316 /* iOS */,
-				FFB9FD1D28905D5200FD6316 /* macOS */,
-				FFB9FD1528905D5200FD6316 /* Products */,
+				FDA4CEFF289DB1EA00255671 /* ApprenTic Tac Toe */,
+				FDA4CF16289DB1EB00255671 /* ApprenTic Tac ToeTests */,
+				FDA4CF20289DB1EB00255671 /* ApprenTic Tac ToeUITests */,
+				FDA4CEFE289DB1EA00255671 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FFB9FD0C28905D4F00FD6316 /* Shared */ = {
+		FDA4CEFE289DB1EA00255671 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FFB9FD0D28905D4F00FD6316 /* ApprenTic_Tac_ToeApp.swift */,
-				FFB9FD0E28905D4F00FD6316 /* ContentView.swift */,
-				FFB9FD0F28905D5200FD6316 /* Assets.xcassets */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		FFB9FD1528905D5200FD6316 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FFB9FD1428905D5200FD6316 /* ApprenTic Tac Toe.app */,
-				FFB9FD1C28905D5200FD6316 /* ApprenTic Tac Toe.app */,
+				FDA4CEFD289DB1EA00255671 /* ApprenTic Tac Toe.app */,
+				FDA4CF13289DB1EB00255671 /* ApprenTic Tac ToeTests.xctest */,
+				FDA4CF1D289DB1EB00255671 /* ApprenTic Tac ToeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FFB9FD1628905D5200FD6316 /* iOS */ = {
+		FDA4CEFF289DB1EA00255671 /* ApprenTic Tac Toe */ = {
 			isa = PBXGroup;
 			children = (
-				FFB9FD1728905D5200FD6316 /* Info.plist */,
+				FDA4CF00289DB1EA00255671 /* AppDelegate.swift */,
+				FDA4CF02289DB1EA00255671 /* SceneDelegate.swift */,
+				FDA4CF04289DB1EA00255671 /* ViewController.swift */,
+				FDA4CF3028A2D4CA00255671 /* TicTacButton.swift */,
+				FDA4CF09289DB1EB00255671 /* Assets.xcassets */,
+				FDA4CF0B289DB1EB00255671 /* LaunchScreen.storyboard */,
+				FDA4CF0E289DB1EB00255671 /* Info.plist */,
 			);
-			path = iOS;
+			path = "ApprenTic Tac Toe";
 			sourceTree = "<group>";
 		};
-		FFB9FD1D28905D5200FD6316 /* macOS */ = {
+		FDA4CF16289DB1EB00255671 /* ApprenTic Tac ToeTests */ = {
 			isa = PBXGroup;
 			children = (
-				FFB9FD1E28905D5200FD6316 /* Info.plist */,
-				FFB9FD1F28905D5200FD6316 /* macOS.entitlements */,
+				FDA4CF17289DB1EB00255671 /* ApprenTic_Tac_ToeTests.swift */,
 			);
-			path = macOS;
+			path = "ApprenTic Tac ToeTests";
+			sourceTree = "<group>";
+		};
+		FDA4CF20289DB1EB00255671 /* ApprenTic Tac ToeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA4CF21289DB1EB00255671 /* ApprenTic_Tac_ToeUITests.swift */,
+				FDA4CF23289DB1EB00255671 /* ApprenTic_Tac_ToeUITestsLaunchTests.swift */,
+			);
+			path = "ApprenTic Tac ToeUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FFB9FD1328905D5200FD6316 /* ApprenTic Tac Toe (iOS) */ = {
+		FDA4CEFC289DB1EA00255671 /* ApprenTic Tac Toe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFB9FD2828905D5200FD6316 /* Build configuration list for PBXNativeTarget "ApprenTic Tac Toe (iOS)" */;
+			buildConfigurationList = FDA4CF27289DB1EB00255671 /* Build configuration list for PBXNativeTarget "ApprenTic Tac Toe" */;
 			buildPhases = (
-				FFB9FD1028905D5200FD6316 /* Sources */,
-				FFB9FD1128905D5200FD6316 /* Frameworks */,
-				FFB9FD1228905D5200FD6316 /* Resources */,
+				FDA4CEF9289DB1EA00255671 /* Sources */,
+				FDA4CEFA289DB1EA00255671 /* Frameworks */,
+				FDA4CEFB289DB1EA00255671 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "ApprenTic Tac Toe (iOS)";
-			productName = "ApprenTic Tac Toe (iOS)";
-			productReference = FFB9FD1428905D5200FD6316 /* ApprenTic Tac Toe.app */;
+			name = "ApprenTic Tac Toe";
+			productName = "ApprenTic Tac Toe";
+			productReference = FDA4CEFD289DB1EA00255671 /* ApprenTic Tac Toe.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FFB9FD1B28905D5200FD6316 /* ApprenTic Tac Toe (macOS) */ = {
+		FDA4CF12289DB1EB00255671 /* ApprenTic Tac ToeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFB9FD2B28905D5200FD6316 /* Build configuration list for PBXNativeTarget "ApprenTic Tac Toe (macOS)" */;
+			buildConfigurationList = FDA4CF2A289DB1EB00255671 /* Build configuration list for PBXNativeTarget "ApprenTic Tac ToeTests" */;
 			buildPhases = (
-				FFB9FD1828905D5200FD6316 /* Sources */,
-				FFB9FD1928905D5200FD6316 /* Frameworks */,
-				FFB9FD1A28905D5200FD6316 /* Resources */,
+				FDA4CF0F289DB1EB00255671 /* Sources */,
+				FDA4CF10289DB1EB00255671 /* Frameworks */,
+				FDA4CF11289DB1EB00255671 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FDA4CF15289DB1EB00255671 /* PBXTargetDependency */,
 			);
-			name = "ApprenTic Tac Toe (macOS)";
-			productName = "ApprenTic Tac Toe (macOS)";
-			productReference = FFB9FD1C28905D5200FD6316 /* ApprenTic Tac Toe.app */;
-			productType = "com.apple.product-type.application";
+			name = "ApprenTic Tac ToeTests";
+			productName = "ApprenTic Tac ToeTests";
+			productReference = FDA4CF13289DB1EB00255671 /* ApprenTic Tac ToeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDA4CF1C289DB1EB00255671 /* ApprenTic Tac ToeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA4CF2D289DB1EB00255671 /* Build configuration list for PBXNativeTarget "ApprenTic Tac ToeUITests" */;
+			buildPhases = (
+				FDA4CF19289DB1EB00255671 /* Sources */,
+				FDA4CF1A289DB1EB00255671 /* Frameworks */,
+				FDA4CF1B289DB1EB00255671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA4CF1F289DB1EB00255671 /* PBXTargetDependency */,
+			);
+			name = "ApprenTic Tac ToeUITests";
+			productName = "ApprenTic Tac ToeUITests";
+			productReference = FDA4CF1D289DB1EB00255671 /* ApprenTic Tac ToeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FFB9FD0828905D4F00FD6316 /* Project object */ = {
+		FDA4CEF5289DB1EA00255671 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					FFB9FD1328905D5200FD6316 = {
-						CreatedOnToolsVersion = 12.4;
+					FDA4CEFC289DB1EA00255671 = {
+						CreatedOnToolsVersion = 13.4.1;
 					};
-					FFB9FD1B28905D5200FD6316 = {
-						CreatedOnToolsVersion = 12.4;
+					FDA4CF12289DB1EB00255671 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FDA4CEFC289DB1EA00255671;
+					};
+					FDA4CF1C289DB1EB00255671 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FDA4CEFC289DB1EA00255671;
 					};
 				};
 			};
-			buildConfigurationList = FFB9FD0B28905D4F00FD6316 /* Build configuration list for PBXProject "ApprenTic Tac Toe" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = FDA4CEF8289DB1EA00255671 /* Build configuration list for PBXProject "ApprenTic Tac Toe" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = FFB9FD0728905D4F00FD6316;
-			productRefGroup = FFB9FD1528905D5200FD6316 /* Products */;
+			mainGroup = FDA4CEF4289DB1EA00255671;
+			productRefGroup = FDA4CEFE289DB1EA00255671 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FFB9FD1328905D5200FD6316 /* ApprenTic Tac Toe (iOS) */,
-				FFB9FD1B28905D5200FD6316 /* ApprenTic Tac Toe (macOS) */,
+				FDA4CEFC289DB1EA00255671 /* ApprenTic Tac Toe */,
+				FDA4CF12289DB1EB00255671 /* ApprenTic Tac ToeTests */,
+				FDA4CF1C289DB1EB00255671 /* ApprenTic Tac ToeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FFB9FD1228905D5200FD6316 /* Resources */ = {
+		FDA4CEFB289DB1EA00255671 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFB9FD2428905D5200FD6316 /* Assets.xcassets in Resources */,
+				FDA4CF0D289DB1EB00255671 /* LaunchScreen.storyboard in Resources */,
+				FDA4CF0A289DB1EB00255671 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFB9FD1A28905D5200FD6316 /* Resources */ = {
+		FDA4CF11289DB1EB00255671 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFB9FD2528905D5200FD6316 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA4CF1B289DB1EB00255671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FFB9FD1028905D5200FD6316 /* Sources */ = {
+		FDA4CEF9289DB1EA00255671 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFB9FD2228905D5200FD6316 /* ContentView.swift in Sources */,
-				FFB9FD2028905D5200FD6316 /* ApprenTic_Tac_ToeApp.swift in Sources */,
+				FDA4CF05289DB1EA00255671 /* ViewController.swift in Sources */,
+				FDA4CF3128A2D4CA00255671 /* TicTacButton.swift in Sources */,
+				FDA4CF01289DB1EA00255671 /* AppDelegate.swift in Sources */,
+				FDA4CF03289DB1EA00255671 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFB9FD1828905D5200FD6316 /* Sources */ = {
+		FDA4CF0F289DB1EB00255671 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFB9FD2328905D5200FD6316 /* ContentView.swift in Sources */,
-				FFB9FD2128905D5200FD6316 /* ApprenTic_Tac_ToeApp.swift in Sources */,
+				FDA4CF18289DB1EB00255671 /* ApprenTic_Tac_ToeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA4CF19289DB1EB00255671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA4CF22289DB1EB00255671 /* ApprenTic_Tac_ToeUITests.swift in Sources */,
+				FDA4CF24289DB1EB00255671 /* ApprenTic_Tac_ToeUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		FDA4CF15289DB1EB00255671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA4CEFC289DB1EA00255671 /* ApprenTic Tac Toe */;
+			targetProxy = FDA4CF14289DB1EB00255671 /* PBXContainerItemProxy */;
+		};
+		FDA4CF1F289DB1EB00255671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA4CEFC289DB1EA00255671 /* ApprenTic Tac Toe */;
+			targetProxy = FDA4CF1E289DB1EB00255671 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDA4CF0B289DB1EB00255671 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA4CF0C289DB1EB00255671 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		FFB9FD2628905D5200FD6316 /* Debug */ = {
+		FDA4CF25289DB1EB00255671 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -255,22 +358,23 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		FFB9FD2728905D5200FD6316 /* Release */ = {
+		FDA4CF26289DB1EB00255671 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -308,131 +412,180 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-			};
-			name = Release;
-		};
-		FFB9FD2928905D5200FD6316 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.ApprenTic-Tac-Toe";
-				PRODUCT_NAME = "ApprenTic Tac Toe";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FFB9FD2A28905D5200FD6316 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.ApprenTic-Tac-Toe";
-				PRODUCT_NAME = "ApprenTic Tac Toe";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		FFB9FD2C28905D5200FD6316 /* Debug */ = {
+		FDA4CF28289DB1EB00255671 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ApprenTic Tac Toe/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.ApprenTic-Tac-Toe";
-				PRODUCT_NAME = "ApprenTic Tac Toe";
-				SDKROOT = macosx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		FFB9FD2D28905D5200FD6316 /* Release */ = {
+		FDA4CF29289DB1EB00255671 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ApprenTic Tac Toe/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.ApprenTic-Tac-Toe";
-				PRODUCT_NAME = "ApprenTic Tac Toe";
-				SDKROOT = macosx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FDA4CF2B289DB1EB00255671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.ApprenTic-Tac-ToeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApprenTic Tac Toe.app/ApprenTic Tac Toe";
+			};
+			name = Debug;
+		};
+		FDA4CF2C289DB1EB00255671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.ApprenTic-Tac-ToeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApprenTic Tac Toe.app/ApprenTic Tac Toe";
+			};
+			name = Release;
+		};
+		FDA4CF2E289DB1EB00255671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.ApprenTic-Tac-ToeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ApprenTic Tac Toe";
+			};
+			name = Debug;
+		};
+		FDA4CF2F289DB1EB00255671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.ApprenTic-Tac-ToeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ApprenTic Tac Toe";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FFB9FD0B28905D4F00FD6316 /* Build configuration list for PBXProject "ApprenTic Tac Toe" */ = {
+		FDA4CEF8289DB1EA00255671 /* Build configuration list for PBXProject "ApprenTic Tac Toe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FFB9FD2628905D5200FD6316 /* Debug */,
-				FFB9FD2728905D5200FD6316 /* Release */,
+				FDA4CF25289DB1EB00255671 /* Debug */,
+				FDA4CF26289DB1EB00255671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FFB9FD2828905D5200FD6316 /* Build configuration list for PBXNativeTarget "ApprenTic Tac Toe (iOS)" */ = {
+		FDA4CF27289DB1EB00255671 /* Build configuration list for PBXNativeTarget "ApprenTic Tac Toe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FFB9FD2928905D5200FD6316 /* Debug */,
-				FFB9FD2A28905D5200FD6316 /* Release */,
+				FDA4CF28289DB1EB00255671 /* Debug */,
+				FDA4CF29289DB1EB00255671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FFB9FD2B28905D5200FD6316 /* Build configuration list for PBXNativeTarget "ApprenTic Tac Toe (macOS)" */ = {
+		FDA4CF2A289DB1EB00255671 /* Build configuration list for PBXNativeTarget "ApprenTic Tac ToeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FFB9FD2C28905D5200FD6316 /* Debug */,
-				FFB9FD2D28905D5200FD6316 /* Release */,
+				FDA4CF2B289DB1EB00255671 /* Debug */,
+				FDA4CF2C289DB1EB00255671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA4CF2D289DB1EB00255671 /* Build configuration list for PBXNativeTarget "ApprenTic Tac ToeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA4CF2E289DB1EB00255671 /* Debug */,
+				FDA4CF2F289DB1EB00255671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FFB9FD0828905D4F00FD6316 /* Project object */;
+	rootObject = FDA4CEF5289DB1EA00255671 /* Project object */;
 }
